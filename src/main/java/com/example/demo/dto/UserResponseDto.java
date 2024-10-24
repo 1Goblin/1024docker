@@ -11,7 +11,7 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 
-@JsonPropertyOrder({"UserName", "UserAge"})
+@JsonPropertyOrder({"userName", "userAge"})
 @AllArgsConstructor(access = AccessLevel.PACKAGE)
 @Getter
 @Setter
@@ -19,9 +19,9 @@ public class UserResponseDto {
 
 
     private Integer id;
-    @JsonProperty("UserName")
+    @JsonProperty("userName")
     private String name;
-    @JsonProperty("UserAge")
+    @JsonProperty("userAge")
     private Integer age;
     @JsonIgnore
     private String job;
