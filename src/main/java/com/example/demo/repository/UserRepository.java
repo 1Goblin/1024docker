@@ -21,6 +21,9 @@ public class UserRepository implements IRepository<Integer, User> {
             new User(2, "bbb", 11, "teacher", "Frontend", LocalDateTime.now().plusMinutes(20)));
         users.put(3,
             new User(3, "ccc", 12, "nurse", "DevOps/SRE", LocalDateTime.now().plusMinutes(30)));
+        users.put(4,
+            new User(4, "kkk", 27, "doc", "DevOps/SRE", LocalDateTime.now().plusMinutes(30)));
+
 
     }
 
