@@ -16,11 +16,11 @@ public class UserRepository implements IRepository<Integer, User> {
     static {
         users = new HashMap<>();
         users.put(1,
-            new User(1, "현정", 17, "student", "Backend", LocalDateTime.now().plusMinutes(10)));
+            new User(1, "aaa", 17, "student", "Backend", LocalDateTime.now().plusMinutes(10)));
         users.put(2,
-            new User(2, "효진", 11, "teacher", "Frontend", LocalDateTime.now().plusMinutes(20)));
+            new User(2, "bbb", 11, "teacher", "Frontend", LocalDateTime.now().plusMinutes(20)));
         users.put(3,
-            new User(3, "상현", 12, "nurse", "DevOps/SRE", LocalDateTime.now().plusMinutes(30)));
+            new User(3, "ccc", 12, "nurse", "DevOps/SRE", LocalDateTime.now().plusMinutes(30)));
 
     }
 
